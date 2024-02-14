@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "PT-Bold";
+    src: url(assets/fonts/PTSansNarrow-Bold.ttf);
+}
+@font-face {
+    font-family: "PT-Regular";
+    src: url(assets/fonts/PTSansNarrow-Regular.ttf);
+}
+@font-face {
+    font-family: "Fira Sans";
+    src: url(assets/fonts/FiraSans-Regular.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "PT-Regular";
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-container {
+    width: 180px;
+    height: 170px;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* FOOTER START */
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #82d26e;
+}
+
+.footer-top h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: white;
+}
+
+.footer-top h4 {
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #A6D697;
+}
+
+.footer-contact a {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-contact img {
+    width: 17px;
+}
+
+.footer-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 80px 30px;
+}
+
+.footer-deets {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-mid h2 {
+    color: #3f3f3f;
+    font-family: "Fira Sans", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footer-mid p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+
+.footer-bottom {
+    background-color: #DCDDE5;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #B2A9A3;
+    padding: 28px 0;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    gap: 10px;
+}
+
+.social-icon:hover {
+    width: 25px;
+    height: 25px;
+    background-color: #3C77BB;
+    border-radius: 5px;
+    transition: ease-in-out;
+    padding: 2px;
+}
+
+.social-icon img {
+    width: 25px;
+}
