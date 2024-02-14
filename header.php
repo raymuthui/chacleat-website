@@ -11,7 +11,7 @@
             <img class="logo" src="assets/images/logo.png" alt="chacleat-logo">
         </div>
         <ul>
-            <li><a href="home.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="services.php">Services</a></li>
             <li><a href="portfolio.php">Portfolio</a></li>
             <li><a href="testimonials.php">Testimonials</a></li>
