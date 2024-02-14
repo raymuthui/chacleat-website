@@ -23,6 +23,10 @@ body {
   font-size: 15px;
 }
 
+main {
+  width: 100%;
+}
+
 /* HEADER START */
 header {
   height: 100px;
@@ -202,6 +206,87 @@ footer {
 }
 
 /* FOOTER END */
+
+/* HOME PAGE START */
+
+.home-services-overview {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  place-items: center;
+  gap: 70px;
+  padding: 60px;
+  margin: 20px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.service-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.service-top h2 {
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  line-height: 1;
+  color: #3f3f3f;
+}
+
+.service-top h6 {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(2,2,2,0.46);
+  letter-spacing: 7px;
+  line-height: 1;
+}
+
+.service-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 40px;
+}
+
+.home-services {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.home-services img {
+  width: 100%;
+}
+
+.service-image-top {
+  display: flex;
+  place-items: center;
+}
+
+.service-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.service-details h2 {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+  color: #3f3f3f;
+}
+
+.service-details p {
+  line-height: 1.7;
+  font-size: 15px;
+  color: #757575;
+}
+
+/* HOME PAGE END */
 
 /* Services.css  */
 .container {
@@ -399,12 +484,6 @@ header {
   color: #fff;
   text-align: center;
   padding: 20px 0;
-}
-
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 h1 {
