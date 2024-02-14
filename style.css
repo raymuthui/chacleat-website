@@ -152,3 +152,93 @@ footer {
 .social-icon img {
     width: 25px;
 }
+
+/* Services.css  */
+.container {
+    margin: 50px 20px; /* Increase margin to the ends of the screen */
+    text-align: center;
+}
+
+.header-text {
+    color: rgb(90, 90, 178);
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 80px;
+
+}
+.header-text h1 {
+    font-size: 90px;
+}
+.header-text p {
+    font-size: 22px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #757575;
+    padding-bottom: 30px;
+}
+
+.service-img {
+    border-radius: 50%;
+    background-color: #007bff;
+    padding: 30px;
+}
+
+.service img {
+    width: 90px;
+    height: 90px;
+}
+
+.service-title {
+    font-size: 38px;
+    color: #007bff;
+    margin-bottom: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.service-description {
+    color: #757575;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.column-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+
+
+/* portfolio.css */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.zoomable {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.zoomed {
+    transform: scale(1.5);
+}
+
+
+/* responsiveness */
+@media (max-width: 600px) {
+    /* service.css */
+    .service {
+        flex-basis: calc(100% - 30px);
+        margin-right: 0;
+    }
+}
