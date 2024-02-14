@@ -8,11 +8,11 @@
     
 </head>
 <body>
-    <section>
+    <header>
     <?php
         include 'header.php'
     ?>
-    </section>
+    </header>
     <div class="container">
         <div class="header-text">
             <h1>SERVICES</h1>
@@ -61,10 +61,10 @@
 
         </div>
     </div>
-    <section>
+    <footer>
         <?php
             include 'footer.php'
         ?>
-    </section>
+    </footer>
 </body>
 </html>

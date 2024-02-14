@@ -7,11 +7,11 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <section>
+        <header>
         <?php
             include 'header.php'
         ?>
-        </section>
+        </header>
         <div class="header-text">
             <h1>PORTFOLIO</h1>
             <p>BROWSE THROUGH SOME OF OUR MASTERPIECES</p>
@@ -24,11 +24,11 @@
             <img class="zoomable" src="assets/images/AdobeStock_1.png" alt="">
             <img class="zoomable" src="assets/images/AdobeStock_1.png" alt="">
         </div>
-        <section>
+        <footer>
             <?php
                 include 'footer.php'
             ?>
-        </section>
+        </footer>
     </body>
 </html>
 

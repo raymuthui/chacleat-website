@@ -7,17 +7,17 @@
     <title>Home</title>
 </head>
 <body>
-    <section>
+    <header>
         <?php
             include_once 'header.php';
         ?>
-    </section>
+    </header>
 
-    <section></section>
-    <section>
+    <main></main>
+    <footer>
         <?php
             include_once 'footer.php';
         ?>
-    </section>
+    </footer>
 </body>
 </html>
