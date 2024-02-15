@@ -47,10 +47,50 @@
             </div>
         </section>
         <section class="featured-work">
-
+            <div class="featured-top">
+                <h2>FEATURED WORK</h2>
+                <h6>WE TAKE PRIDE IN OUR WORK</h6>
+            </div>
+            <div class="featured-bottom">
+                <div class="featured-image">
+                    <img src="assets/images/home-kitchen-remodel.jpg" alt="featured-projects">
+                </div>
+                <div class="featured-image">
+                    <img src="assets/images/home-kitchen-remodel.jpg" alt="featured-projects">
+                </div>
+                <div class="featured-image">
+                    <img src="assets/images/home-kitchen-remodel.jpg" alt="featured-projects">
+                </div>
+            </div>
+            <a href="portfolio.php">View Portfolio<img src="assets/images/project.svg" alt="image-placeholder"></a>
         </section>
         <section class="home-testimonials">
-
+            <div class="home-testimonials-top">
+                <h2>WHAT OUR CLIENTS ARE SAYING</h2>
+                <h6>DON'T JUST TAKE OUR WORD</h6>
+            </div>
+            <div class="home-testimonials-bottom">
+                <div class="testimonial-container">
+                    <div class="avator"><img src="assets/images/user.svg" alt="avatar"></div>
+                    <div class="profile-details">
+                        <h2>Jane Doe</h2>
+                        <h6>Home Owner</h6>
+                    </div>
+                    <div class="testimonials">
+                        Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. 
+                    </div>
+                </div>
+                <div class="testimonial-container">
+                    <div class="avator"><img src="assets/images/user.svg" alt="avatar"></div>
+                    <div class="profile-details">
+                        <h2>John Doe</h2>
+                        <h6>Business Owner</h6>
+                    </div>
+                    <div class="testimonials">
+                        Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. 
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
