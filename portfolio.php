@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
+    <header>
         <?php include 'header.php' ?>
-    </section>
+    </header>
     <div class="header-text">
         <h1>PORTFOLIO</h1>
         <p>BROWSE THROUGH SOME OF OUR MASTERPIECES</p>
@@ -70,9 +70,9 @@
             <p>Description for image</p>
         </div>
     </div>
-    <section>
+    <footer>
         <?php include 'footer.php' ?>
-    </section>
+    </footer>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
