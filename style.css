@@ -286,6 +286,124 @@ footer {
   color: #757575;
 }
 
+.featured-work {
+  background-color: #27377B;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 30px;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.featured-work a {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 20px;
+  background-color: #82d26e;
+  text-decoration: none;
+  color: #27377B;
+  font-family: "PT-Regular", Sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.3em;
+}
+
+.featured-work a:hover {
+  transition: ease-in-out 0.3s;
+  background-color: white;
+  opacity: 0.3;
+}
+
+.featured-work a img {
+  width: 15px;
+  margin-left: 10px;
+}
+
+.featured-top {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.featured-top h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 1;
+}
+
+.featured-top h6 {
+  color: rgba(255,255,255,0.46);
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  line-height: 1;
+}
+
+.featured-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px 70px 30px 70px;
+}
+
+.featured-image {
+  width: auto;
+}
+
+.featured-image img {
+  width: 100%;
+}
+
+.home-testimonials {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.home-testimonials-top {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.home-testimonials-top h2 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #3f3f3f;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.home-testimonials-top h6 {
+  color: rgba(2,2,2,0.46);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+.home-testimonials-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.avator img {
+  width: 50px;
+}
+
 /* HOME PAGE END */
 
 /* Services.css  */
