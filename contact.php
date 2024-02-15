@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <?php include_once 'header.php' ?>
+    </header>
     <div class="container">
       <div class="image-wrapper">
         <img src="img/heading2.jpg" alt="heading" />
@@ -76,5 +79,8 @@
         <p>800-123-4567</p>
       </div>
     </section>
+    <footer>
+      <?php include_once 'footer.php' ?>
+    </footer>
   </body>
 </html>

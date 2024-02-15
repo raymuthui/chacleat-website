@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
     <footer>
         <div class="footer-top">
             <h2>WE CAN HELP BUILD YOUR PROJECT!</h2>
@@ -43,5 +35,3 @@
             <p>© 2024 All Rights Reserved. Developed by FutureTech</p>
         </div>
     </footer>
-</body>
-</html>

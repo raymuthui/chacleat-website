@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <?php include_once 'header.php' ?>
+    </header>
     <div class="top">
       <div class="image-wrapper">
         <img src="img/jamii.jpg" alt="heading" />
         <h1>Welcome to Shiv Construction Co.</h1>
       </div>
     </div>
-    <header>
+    <section>
       <h1>Building Kenya Since 1974</h1>
-    </header>
-
+    </section>
     <main>
       <section class="about">
         <h2>About Us</h2>
@@ -53,6 +55,10 @@
           maintenance services.
         </p>
       </section>
+
+      <footer>
+        <?php include_once 'footer.php' ?>
+      </footer>
     </main>
   </body>
 </html>
