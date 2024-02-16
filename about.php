@@ -16,7 +16,7 @@
     <div class="overlay"></div>
     <img id="banner-image" src="assets/images/home-kitchen-remodel.jpg" alt="Banner Image" class="banner-image">
     <div class="header-text">
-      <h1>Welcome to Chacleat Construction Co.</h1>
+      <h1>Welcome to Chacleat Construction</h1>
       <p>Building Kenya Since 1974</p>
     </div>
   </section>
