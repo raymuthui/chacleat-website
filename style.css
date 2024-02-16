@@ -816,10 +816,19 @@ p {
   line-height: 1.6;
 }
 
+.about-content {
+  text-align: center;
+}
+
 .about,
 .mission,
 .clientele {
   margin-bottom: 40px;
+}
+
+.bottom-about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .about h2,
@@ -847,6 +856,7 @@ p {
   gap: 20px;
   padding: 50px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .text-block {
