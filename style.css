@@ -506,6 +506,7 @@ footer {
   vertical-align: middle;
   background-color: white;
   position: absolute;
+  padding: 10px;
   top: -40px;
   left: 44%;
   width: 67px;
