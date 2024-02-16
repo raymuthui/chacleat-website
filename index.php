@@ -33,24 +33,24 @@
             </div>
             <div class="service-bottom">
                 <div class="home-services">
-                    <div class="service-image-top"><img src="assets/images/construction-icon.png" alt="construction"></div>
+                    <div class="service-image-top"><img src="assets/images/construction.png" alt="Construction Icon"></div>
                     <div class="service-details">
                         <h2>CONSTRUCTION</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+                        <p>Elevate your visions with our construction prowess, spanning high-rise buildings, complexes, conference halls, and residential premises. From the grandeur of high-rises to the comfort of homes, we build spaces that inspire and endure.</p>
                     </div>
                 </div>
                 <div class="home-services">
-                    <div class="service-image-top"><img src="assets/images/roofing-icon.png" alt="roofing"></div>
+                    <div class="service-image-top"><img src="assets/images/roadworks.png" alt="Roadworks Icon"></div>
                     <div class="service-details">
-                        <h2>ROOFING</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+                        <h2>ROAD & BRIDGE</h2>
+                        <p>Mastering a spectrum of road services, we specialize in road furnishing, protection works, and maintenance across various classes. Our expertise extends to the seamless construction of bridges, ensuring connectivity and durability in every project we undertake.</p>
                     </div>
                 </div>
                 <div class="home-services">
-                    <div class="service-image-top"><img src="assets/images/remodeling-icon.png" alt="remodeling"></div>
+                    <div class="service-image-top"><img src="assets/images/electic-works.png" alt="Electic-works Icon"></div>
                     <div class="service-details">
-                        <h2>REMODELING</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+                        <h2>ELECTRIC</h2>
+                        <p>Empowering your spaces with expertise, we specialize in comprehensive electrical solutions. From installations to maintenance, our skilled team ensures seamless electrical works for a brighter and safer environment.</p>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
             </div>
             <div class="home-testimonials-bottom">
                 <div class="testimonial-container">
-                    <div class="avatar"><img src="assets/images/user.svg" alt="avatar"></div>
+                    <div class="avator"><img src="assets/images/user.svg" alt="avatar"></div>
                     <div class="profile-details">
                         <h2>Jane Doe</h2>
                         <h5>Home Owner</h5>
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div class="testimonial-container">
-                    <div class="avatar"><img src="assets/images/user.svg" alt="avatar"></div>
+                    <div class="avator"><img src="assets/images/user.svg" alt="avatar"></div>
                     <div class="profile-details">
                         <h2>John Doe</h2>
                         <h5>Business Owner</h5>

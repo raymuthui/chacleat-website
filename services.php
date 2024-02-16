@@ -28,7 +28,7 @@
 
       <div class="service">
         <div class="service-img">
-          <img src="assets/images/AdobeStock_1.png" alt="Construction Icon">
+          <img src="assets/images/construction.png" alt="Construction Icon">
         </div>
         <div class="service-title">Construction</div>
         <div class="service-description">
@@ -38,7 +38,7 @@
 
       <div class="service">
         <div class="service-img">
-          <img src="assets/images/roadworks.png" alt="Construction Icon">
+          <img src="assets/images/roadworks.png" alt="Roadworks Icon">
         </div>
         <div class="service-title">Road & Bridge</div>
         <div class="service-description">
