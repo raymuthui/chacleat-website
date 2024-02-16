@@ -12,13 +12,14 @@
   <header>
     <?php include_once 'header.php' ?>
   </header>
-  <div class="top">
-    <div class="image-wrapper">
-      <img src="assets/images/Heading.jpg" alt="heading" />
+  <section class="banner" style="height: 400px;">
+    <div class="overlay"></div>
+    <img id="banner-image" src="assets/images/home-kitchen-remodel.jpg" alt="Banner Image" class="banner-image">
+    <div class="header-text">
       <h1>TESTIMONIALS</h1>
-      <p id="heading">We are a team of skilled professionals</p>
+      <p>We are a team of skilled professionals</p>
     </div>
-  </div>
+  </section>
   <div class="all-testimonials">
     <div class="testimonial-container">
       <div class="avatar">

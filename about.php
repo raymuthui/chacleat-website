@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shiv Construction Company</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <?php include_once 'header.php' ?>
-    </header>
-    <section class="banner" style="height: 400px;">
-      <div class="overlay"></div>
-      <img id="banner-image" src="assets/images/home-kitchen-remodel.jpg" alt="Banner Image" class="banner-image">
-      <div class="header-text">
-        <h1>Welcome to Shiv Construction Co.</h1>
-      </div>
-    </section>   
-    <section>
-      <h1>Building Kenya Since 1974</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shiv Construction Company</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <?php include_once 'header.php' ?>
+  </header>
+  <section class="banner" style="height: 400px;">
+    <div class="overlay"></div>
+    <img id="banner-image" src="assets/images/home-kitchen-remodel.jpg" alt="Banner Image" class="banner-image">
+    <div class="header-text">
+      <h1>Welcome to Chacleat Construction Co.</h1>
+    </div>
+  </section>
+  <section>
+    <h1>Building Kenya Since 1974</h1>
+  </section>
+  <main>
+    <section class="about">
+      <h2>About Us</h2>
+      <p>
+        Shiv Construction Company Limited has over forty years’ experience in
+        the building and construction industry in Kenya. We are renowned
+        specialists in various areas, including housing schemes, universities
+        and student centers, hospitals, banks, office blocks, factories, and
+        civil works.
+      </p>
     </section>
-    <main>
-      <section class="about">
-        <h2>About Us</h2>
-        <p>
-          Shiv Construction Company Limited has over forty years’ experience in
-          the building and construction industry in Kenya. We are renowned
-          specialists in various areas, including housing schemes, universities
-          and student centers, hospitals, banks, office blocks, factories, and
-          civil works.
-        </p>
-      </section>
 
     <section class="mission">
       <h2>Our Mission</h2>
