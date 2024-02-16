@@ -34,51 +34,53 @@
       </div>
     </div>
 
-    <div class="contact-form">
-      <h3>Contact Us</h3>
-      <form action="#" method="post">
-        git
-        <div class="form-group">
-          <label for="name">Your Name:</label>
-          <input type="text" id="name" name="name" required />
-        </div>
-        <div class="form-group">
-          <label for="email">Your Email:</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div class="form-group">
-          <label for="subject">Subject:</label>
-          <input type="text" id="subject" name="subject" required />
-        </div>
-        <div class="form-group">
-          <label for="message">Your Message:</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <button type="Send Message">Send</button>
-      </form>
-    </div>
+    <section class="bottom-about">
+      <div class="contact-form">
+        <h3>Contact Us</h3>
+        <form action="#" method="post">
+          git
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="Send Message">Send</button>
+        </form>
+      </div>
 
-    <section class="contact-section">
-      <div class="contact-block">
-        <h2>NEED HELP?</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-        </p>
-        <a href="mailto:contact@your-website.com">contact@your-website.com</a>
-      </div>
-      <div class="contact-block">
-        <h2>24/7 CUSTOMER SUPPORT</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-        </p>
-        <a href="mailto:contact@your-website.com">contact@your-website.com</a>
-      </div>
-      <div class="contact-block">
-        <h2>AVAILABLE 24 HOURS A DAY</h2>
-        <p>800-123-4567</p>
-      </div>
+      <section class="contact-section">
+        <div class="contact-block">
+          <h2>NEED HELP?</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+          <a href="mailto:contact@your-website.com">contact@your-website.com</a>
+        </div>
+        <div class="contact-block">
+          <h2>24/7 CUSTOMER SUPPORT</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+          <a href="mailto:contact@your-website.com">contact@your-website.com</a>
+        </div>
+        <div class="contact-block">
+          <h2>AVAILABLE 24 HOURS A DAY</h2>
+          <p>800-123-4567</p>
+        </div>
+      </section>
     </section>
     <footer>
       <?php include_once 'footer.php' ?>
