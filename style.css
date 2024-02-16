@@ -688,7 +688,7 @@ footer {
 /* about */
 .about-content {
   padding: 40px 120px;
-  text-align: center;
+  text-align: left;
 }
 
 .about,
@@ -700,12 +700,6 @@ footer {
 .bottom-about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
-
-.about h2,
-.mission h2,
-.clientele h2 {
-  margin-bottom: 10px;
 }
 
 /* Testimonials Start*/
