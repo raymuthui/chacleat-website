@@ -29,8 +29,17 @@
         </div>
         <div class="service-title">Construction</div>
         <div class="service-description">
-          Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-          texts. Separated they live in Bookmarksgrove.
+          Our services in construction have quite a wide scope. They range from high rise buildings, complexes, conference halls to residential premises.
+        </div>
+      </div>
+
+      <div class="service">
+        <div class="service-img">
+          <img src="assets/images/roadworks.png" alt="Construction Icon">
+        </div>
+        <div class="service-title">Road & Bridge</div>
+        <div class="service-description">
+          We are experienced in a variety of road works including road furnishing, road protection works and road maintenance across classes. We also do bridge construction.
         </div>
       </div>
 
@@ -38,16 +47,7 @@
         <div class="service-img">
           <img src="assets/images/Drainage.png" alt="Drainage Icon">
         </div>
-        <div class="service-title">Drainage</div>
-        <div class="service-description">
-          Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-          texts. Separated they live in Bookmarksgrove.
-        </div>
-      </div>
-
-      <div class="service">
-        <div class="service-img"><img src="assets/images/AdobeStock_1.png" alt="Construction Icon"></div>
-        <div class="service-title">Construction</div>
+        <div class="service-title">Water, Drainage & Sewage</div>
         <div class="service-description">
           Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
           texts. Separated they live in Bookmarksgrove.
@@ -56,12 +56,11 @@
 
       <div class="service">
         <div class="service-img">
-          <img src="assets/images/AdobeStock_1.png" alt="Roofing Icon">
+          <img src="assets/images/solarworks.png" alt="Solar Icon">
         </div>
-        <div class="service-title">Roofing</div>
+        <div class="service-title">Solar Works</div>
         <div class="service-description">
-          Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-          texts. Separated they live in Bookmarksgrove.
+          As the world continues to embrace green energy, so have we at Chacleat. We do solar installations for our clients who would like to lower their power costs while preserving the environment.
         </div>
       </div>
 

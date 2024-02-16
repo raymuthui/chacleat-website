@@ -31,34 +31,35 @@
         </p>
       </section>
 
-      <section class="mission">
-        <h2>Our Mission</h2>
-        <p>
-          At Shiv Construction, we are dedicated to providing infrastructure and
-          building solutions for tomorrow’s world. We combine creative planning,
-          design, and construction with innovative engineering techniques to
-          develop the most appropriate solutions, working sustainably to
-          conserve energy, protect the environment, and build communities.
-        </p>
-      </section>
+    <section class="mission">
+      <h2>Our Mission</h2>
+      <p>
+        At Shiv Construction, we are dedicated to providing infrastructure and
+        building solutions for tomorrow’s world. We combine creative planning,
+        design, and construction with innovative engineering techniques to
+        develop the most appropriate solutions, working sustainably to
+        conserve energy, protect the environment, and build communities.
+      </p>
+    </section>
 
-      <section class="clientele">
-        <h2>Our Clientele</h2>
-        <p>
-          During every project, we recognize the importance of minimizing
-          construction time and anticipating disruptions. Our success in
-          managing these factors has been highlighted by the number of repeat
-          clients. These have included Government Ministries, Non-governmental
-          organizations (NGOs) such as USAID-Kenya, religious missions, public
-          and private companies, and local government bodies such as Municipal
-          Councils. Furthermore, we provide guarantees for our works and offer
-          maintenance services.
-        </p>
-      </section>
+    <section class="clientele">
+      <h2>Our Clientele</h2>
+      <p>
+        During every project, we recognize the importance of minimizing
+        construction time and anticipating disruptions. Our success in
+        managing these factors has been highlighted by the number of repeat
+        clients. These have included Government Ministries, Non-governmental
+        organizations (NGOs) such as USAID-Kenya, religious missions, public
+        and private companies, and local government bodies such as Municipal
+        Councils. Furthermore, we provide guarantees for our works and offer
+        maintenance services.
+      </p>
+    </section>
 
-      <footer>
-        <?php include_once 'footer.php' ?>
-      </footer>
-    </main>
-  </body>
+    <footer>
+      <?php include_once 'footer.php' ?>
+    </footer>
+  </main>
+</body>
+
 </html>
