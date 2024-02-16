@@ -17,7 +17,7 @@
     <img id="banner-image" src="assets/images/home-kitchen-remodel.jpg" alt="Banner Image" class="banner-image">
     <div class="header-text">
       <h1>Welcome to Chacleat Construction Co.</h1>
-      <p>Building Kenya Since 1974</p>
+      <h2>Building Kenya Since 1974</h2>
     </div>
   </section>
   <main>
