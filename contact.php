@@ -10,13 +10,14 @@
     <header>
       <?php include_once 'header.php' ?>
     </header>
-    <div class="container">
-      <div class="image-wrapper">
-        <img src="assets/images/heading2.jpg" alt="heading" />
+    <section class="banner" style="height: 400px;">
+      <div class="overlay"></div>
+      <img id="banner-image" src="assets/images/home-kitchen-remodel.jpg" alt="Banner Image" class="banner-image">
+      <div class="header-text">
         <h1>CONTACT US</h1>
-        <p id="heading">GOT A QUESTION OR CONCERN? LET'S GET IN TOUCH</p>
+        <p>GOT A QUESTION OR CONCERN? LET'S GET IN TOUCH</p>
       </div>
-    </div>
+    </section>
     <div class="top">
       <div heading>
         <iframe

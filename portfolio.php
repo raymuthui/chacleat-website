@@ -10,10 +10,14 @@
     <header>
         <?php include 'header.php' ?>
     </header>
-    <div class="header-text">
-        <h1>PORTFOLIO</h1>
-        <p>BROWSE THROUGH SOME OF OUR MASTERPIECES</p>
-    </div>
+    <section class="banner" style="height: 400px;">
+        <div class="overlay"></div>
+        <img id="banner-image" src="assets/images/home-kitchen-remodel.jpg" alt="Banner Image" class="banner-image">
+        <div class="header-text">
+            <h1>PORTFOLIO</h1>
+            <p>BROWSE THROUGH SOME OF OUR MASTERPIECES</p>
+        </div>
+    </section>
     <div class="image-container">
         
         <div class="modal">

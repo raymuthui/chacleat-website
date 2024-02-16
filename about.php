@@ -10,12 +10,13 @@
     <header>
       <?php include_once 'header.php' ?>
     </header>
-    <div class="top">
-      <div class="image-wrapper">
-        <img src="assets/images/jamii.jpg" alt="heading" />
+    <section class="banner" style="height: 400px;">
+      <div class="overlay"></div>
+      <img id="banner-image" src="assets/images/home-kitchen-remodel.jpg" alt="Banner Image" class="banner-image">
+      <div class="header-text">
         <h1>Welcome to Shiv Construction Co.</h1>
       </div>
-    </div>
+    </section>   
     <section>
       <h1>Building Kenya Since 1974</h1>
     </section>

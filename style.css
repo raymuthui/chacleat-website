@@ -138,6 +138,10 @@ footer {
   background-color: #a6d697;
 }
 
+.footer-contact:hover {
+  background-color: rgba(255, 255, 255, 0.505);
+}
+
 .footer-contact a {
   font-size: 17px;
   font-weight: 400;
@@ -479,7 +483,7 @@ footer {
   gap: 60px;
 }
 
-.avator img {
+.avatar img {
   display: inline-block;
   vertical-align: middle;
   background-color: white;
