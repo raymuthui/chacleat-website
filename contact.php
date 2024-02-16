@@ -62,7 +62,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
-          <a href="mailto:contact@your-website.com">contact@your-website.com</a>
+          <a href="mailto:admin@chacleat.com">admin@chacleat.com</a>
         </div>
         <div class="contact-block">
           <h2>24/7 CUSTOMER SUPPORT</h2>
@@ -70,7 +70,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
-          <a href="mailto:contact@your-website.com">contact@your-website.com</a>
+          <a href="mailto:admin@chacleat.com">admin@chacleat.com</a>
         </div>
         <div class="contact-block">
           <h2>AVAILABLE 24 HOURS A DAY</h2>
