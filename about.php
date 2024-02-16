@@ -23,40 +23,42 @@
     <h1>Building Kenya Since 1974</h1>
   </section>
   <main>
-    <section class="about">
-      <h2>About Us</h2>
-      <p>
-        Shiv Construction Company Limited has over forty years’ experience in
-        the building and construction industry in Kenya. We are renowned
-        specialists in various areas, including housing schemes, universities
-        and student centers, hospitals, banks, office blocks, factories, and
-        civil works.
-      </p>
-    </section>
+    <section class="about-content">
+      <section class="about">
+        <h2>About Us</h2>
+        <p>
+          Chacleat Construction Company boasts more than four decades of expertise in Kenya's building and construction
+          sector. Recognized as leading specialists, we've undertaken diverse projects, including housing developments,
+          university facilities, medical centers, financial institutions, corporate complexes, industrial plants, and
+          civil engineering initiatives.
+        </p>
+      </section>
 
-    <section class="mission">
-      <h2>Our Mission</h2>
-      <p>
-        At Shiv Construction, we are dedicated to providing infrastructure and
-        building solutions for tomorrow’s world. We combine creative planning,
-        design, and construction with innovative engineering techniques to
-        develop the most appropriate solutions, working sustainably to
-        conserve energy, protect the environment, and build communities.
-      </p>
-    </section>
+      <section class="mission">
+        <h2>Our Mission</h2>
+        <p>
+          Certainly, here's a rewritten motto for Chacleat Construction Company:
 
-    <section class="clientele">
-      <h2>Our Clientele</h2>
-      <p>
-        During every project, we recognize the importance of minimizing
-        construction time and anticipating disruptions. Our success in
-        managing these factors has been highlighted by the number of repeat
-        clients. These have included Government Ministries, Non-governmental
-        organizations (NGOs) such as USAID-Kenya, religious missions, public
-        and private companies, and local government bodies such as Municipal
-        Councils. Furthermore, we provide guarantees for our works and offer
-        maintenance services.
-      </p>
+          At Chacleat Construction, our mission is to craft tomorrow's urban landscape. We fuse imaginative design,
+          precise engineering, and sustainable building practices to forge tailored solutions, prioritizing energy
+          efficiency, environmental stewardship, and community enrichment in every project we undertake.
+        </p>
+      </section>
+
+      <section class="clientele">
+        <h2>Our Clientele</h2>
+        <p>
+          At Chacleat Construction Company, we prioritize the reduction of construction duration and the proactive
+          management of potential disruptions in every project. Our proficiency in handling these aspects is evidenced
+          by
+          our extensive list of returning clientele, which encompasses various sectors including governmental
+          ministries,
+          non-profit organizations like USAID-Kenya, religious institutions, corporate entities, and local
+          municipalities.
+          Moreover, we assure the quality of our work through guarantees and extend our services to include maintenance
+          provisions.
+        </p>
+      </section>
     </section>
 
     <footer>
