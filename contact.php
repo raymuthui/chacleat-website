@@ -74,7 +74,7 @@
         </div>
         <div class="contact-block">
           <h2>AVAILABLE 24 HOURS A DAY</h2>
-          <p>800-123-4567</p>
+          <p>+254 721 175 735<br/>+254 708 900 144</p>
         </div>
       </section>
     </section>

@@ -816,6 +816,13 @@ footer {
   width: 75%;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="subject"],
+textarea {
+  border-color: #82d26e;
+}
+
 .form-group textarea {
   border: solid;
   border-color: rgba(0,0,0,0.05);
