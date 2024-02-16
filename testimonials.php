@@ -12,14 +12,14 @@
     </header>
     <div class="top">
       <div class="image-wrapper">
-        <img src="img/Heading.jpg" alt="heading" />
+        <img src="assets/images/Heading.jpg" alt="heading" />
         <h1>TESTIMONIALS</h1>
         <p id="heading">We are a team of skilled professionals</p>
       </div>
     </div>
     <div class="test-container">
       <div class="text-block">
-        <img src="img/img 1.jpg" alt="Person 1" />
+        <img src="assets/images/img 1.jpg" alt="Person 1" />
         <h2>Company Owner</h2>
         <p>
           Even the all-powerful Pointing has no control about the blind texts it
@@ -31,7 +31,7 @@
         </p>
       </div>
       <div class="text-block">
-        <img src="img/img 2.jpg" alt="Person 2" />
+        <img src="assets/images/img 2.jpg" alt="Person 2" />
         <h3>Home Owner</h3>
         <p>
           Even the all-powerful Pointing has no control about the blind texts it
@@ -43,7 +43,7 @@
         </p>
       </div>
       <div class="text-block">
-        <img src="img/img 3.jpg" alt="Person 3" />
+        <img src="assets/images/img 3.jpg" alt="Person 3" />
         <h4>CEO</h4>
         <p>
           Even the all-powerful Pointing has no control about the blind texts it
@@ -55,7 +55,7 @@
         </p>
       </div>
       <div class="text-block">
-        <img src="img/img 4.jpg" alt="Person 4" />
+        <img src="assets/images/img 4.jpg" alt="Person 4" />
         <h5>Bussiness Employee</h5>
         <p>
           Even the all-powerful Pointing has no control about the blind texts it
@@ -67,7 +67,7 @@
         </p>
       </div>
       <div class="text-block">
-        <img src="img/img 5.jpg" alt="Person 5" />
+        <img src="assets/images/img 5.jpg" alt="Person 5" />
         <h6>Company Owner</h6>
         <p>
           Even the all-powerful Pointing has no control about the blind texts it
@@ -79,7 +79,7 @@
         </p>
       </div>
       <div class="text-block">
-        <img src="img/img 6.jpg" alt="Person 6" />
+        <img src="assets/images/img 6.jpg" alt="Person 6" />
         <h7>CEO</h7>
         <p>
           Even the all-powerful Pointing has no control about the blind texts it

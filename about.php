@@ -12,7 +12,7 @@
     </header>
     <div class="top">
       <div class="image-wrapper">
-        <img src="img/jamii.jpg" alt="heading" />
+        <img src="assets/images/jamii.jpg" alt="heading" />
         <h1>Welcome to Shiv Construction Co.</h1>
       </div>
     </div>

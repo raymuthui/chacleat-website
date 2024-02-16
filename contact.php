@@ -12,7 +12,7 @@
     </header>
     <div class="container">
       <div class="image-wrapper">
-        <img src="img/heading2.jpg" alt="heading" />
+        <img src="assets/images/heading2.jpg" alt="heading" />
         <h1>CONTACT US</h1>
         <p id="heading">GOT A QUESTION OR CONCERN? LET'S GET IN TOUCH</p>
       </div>

@@ -14,9 +14,18 @@
     </header>
 
     <main>
-        <section class="slideshow">
-
+        <section class="banner">
+            <div class="overlay"></div>
+            <img id="banner-image" src="assets/images/home-kitchen-remodel.jpg" alt="Banner Image" class="banner-image">
+            <button class="prev-button">&lt;</button>
+            <button class="next-button">&gt;</button>
+            <div class="dots">
+                <span class="dot" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
         </section>
+
         <section class="home-services-overview">
             <div class="service-top">
                 <h2>OUR SERVICES</h2>
@@ -74,7 +83,7 @@
                     <div class="avator"><img src="assets/images/user.svg" alt="avatar"></div>
                     <div class="profile-details">
                         <h2>Jane Doe</h2>
-                        <h6>Home Owner</h6>
+                        <h5>Home Owner</h5>
                     </div>
                     <div class="testimonials">
                         Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. 
@@ -84,7 +93,7 @@
                     <div class="avator"><img src="assets/images/user.svg" alt="avatar"></div>
                     <div class="profile-details">
                         <h2>John Doe</h2>
-                        <h6>Business Owner</h6>
+                        <h5>Business Owner</h5>
                     </div>
                     <div class="testimonials">
                         Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. 
@@ -98,5 +107,47 @@
             include_once 'footer.php';
         ?>
     </footer>
+
+    <script>
+        const bannerImage = document.getElementById('banner-image');
+        const prevButton = document.querySelector('.prev-button');
+        const nextButton = document.querySelector('.next-button');
+        const dots = document.querySelectorAll('.dot');
+
+        const images = ['assets/images/home-kitchen-remodel.jpg', 'assets/images/jamii.jpg', 'assets/images/heading2.jpg'];
+        let currentImageIndex = 0;
+
+        function updateImage() {
+            bannerImage.style.opacity = 0;
+            setTimeout(() => {
+                bannerImage.src = images[currentImageIndex];
+                bannerImage.style.opacity = 1;
+            }, 500);
+
+            dots.forEach((dot, i) => dot.classList.toggle('active', i === currentImageIndex));
+        }
+
+        prevButton.addEventListener('click', () => {
+            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+            updateImage();
+        });
+
+        nextButton.addEventListener('click', () => {
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            updateImage();
+        });
+
+        // Add click event listener to dots
+        dots.forEach((dot, i) => {
+            dot.addEventListener('click', () => {
+                currentImageIndex = i;
+                updateImage();
+            });
+        });
+
+        // Initial image load
+        updateImage();
+    </script>
+
 </body>
 </html>
