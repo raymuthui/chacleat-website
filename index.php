@@ -80,7 +80,7 @@
             </div>
             <div class="home-testimonials-bottom">
                 <div class="testimonial-container">
-                    <div class="avator"><img src="assets/images/user.svg" alt="avatar"></div>
+                    <div class="avatar"><img src="assets/images/user.svg" alt="avatar"></div>
                     <div class="profile-details">
                         <h2>Jane Doe</h2>
                         <h5>Home Owner</h5>
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div class="testimonial-container">
-                    <div class="avator"><img src="assets/images/user.svg" alt="avatar"></div>
+                    <div class="avatar"><img src="assets/images/user.svg" alt="avatar"></div>
                     <div class="profile-details">
                         <h2>John Doe</h2>
                         <h5>Business Owner</h5>
