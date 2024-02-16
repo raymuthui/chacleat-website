@@ -805,6 +805,10 @@ p {
   line-height: 1.6;
 }
 
+.about-content {
+  text-align: center;
+}
+
 .about,
 .mission,
 .clientele {
