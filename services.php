@@ -15,12 +15,15 @@
         include 'header.php'
     ?>
   </header>
+  <section class="banner" style="height: 400px;">
+      <div class="overlay"></div>
+      <img id="banner-image" src="assets/images/home-kitchen-remodel.jpg" alt="Banner Image" class="banner-image">
+      <div class="header-text">
+        <h1>SERVICES</h1>
+        <p>WE ARE A TEAM OF HIGHLY SKILLED PROFESSIONALS</p>
+      </div>
+  </section>
   <div class="container">
-    <div class="header-text">
-      <h1>SERVICES</h1>
-      <p>WE ARE A TEAM OF HIGHLY SKILLED PROFESSIONALS</p>
-    </div>
-
     <div class="column-container">
 
       <div class="service">
