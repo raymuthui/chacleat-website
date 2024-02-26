@@ -566,13 +566,11 @@ footer {
   margin-left: 80px;
   z-index: 2;
 }
+
 .header-text h1 {
   font-size: 90px;
 }
-.header-text h2 {
-  text-align: center;
-  font-size: 22px;
-}
+
 .header-text p {
   font-size: 22px;
 }
@@ -587,6 +585,8 @@ footer {
 }
 
 .service-img {
+  display: flex;
+  place-items: center;
   border-radius: 50%;
   background-color: #007bff;
   padding: 30px;
@@ -615,7 +615,8 @@ footer {
   gap: 30px;
 }
 
-/* portfolio.css */
+/* PORTFOLIO START */
+
 .image-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -690,6 +691,8 @@ footer {
   padding: 10px;
 }
 
+/* PORTFOLIO END */
+
 /* about */
 .about-content {
   padding: 40px 120px;
@@ -702,23 +705,7 @@ footer {
   margin-bottom: 40px;
 }
 
-.bottom-about {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
 /* Testimonials Start*/
-.top {
-  width: 100%;
-}
-.top img {
-  width: 100%;
-  height: 500px;
-}
-
-.image-wrapper {
-  width: 100%;
-}
 
 .all-testimonials {
   display: grid;
@@ -729,31 +716,17 @@ footer {
   margin-top: 30px;
 }
 
-.text-block {
-  width: 500px;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.text-block img {
-  display: block;
-  margin: 0 auto 10px;
-  max-width: 30%;
-}
-
-.text-block h3 {
-  margin-bottom: 10px;
-}
-
 /* Testimonials End */
 
 /* Contact Start */
 
 .top {
   position: relative;
+}
+
+.bottom-about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .contact-top {
@@ -892,9 +865,9 @@ button[type="submit"]:hover {
 @media screen and (max-width: 480px) {
   /* HEADER START */
   .logo {
-    top: 20%;
-    width: 50px;
-    height: 50px;
+    top: 68px;
+    width: 80px;
+    height: 80px;
   }
 
   .left-menu {
@@ -918,41 +891,6 @@ button[type="submit"]:hover {
 
   /* HEADER END */
 
-  /* HOMEPAGE START */
-
-  .banner {
-    height: 200px;
-  }
-
-  .banner-image {
-    height: 100%;
-  }
-
-  .service-bottom {
-    grid-template-columns: 1fr;
-  }
-
-  .featured-bottom {
-    grid-template-columns: 1fr;
-    padding: 30px;
-  }
-
-  .home-testimonials-bottom {
-    grid-template-columns: 1fr;
-    padding: 20px;
-  }
-
-  .testimonial-container {
-    padding: 15px;
-    gap: 20px;
-    text-align: center;
-  }
-
-  .avatar img {
-    left: 30%;
-  }
-
-  /* HOMEPAGE END */
 
   /* FOOTER START */
 
@@ -1000,4 +938,164 @@ button[type="submit"]:hover {
   }
 
   /* FOOTER END */
+
+  /* HOMEPAGE START */
+
+  .banner {
+    height: 200px;
+  }
+
+  .banner-image {
+    height: 100%;
+  }
+
+  .service-bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-bottom {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+
+  .home-testimonials-bottom {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .testimonial-container {
+    padding: 15px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .avatar img {
+    left: 30%;
+  }
+
+  /* HOMEPAGE END */
+
+  /* SERVICES START */
+
+  .container {
+    margin: 15px;
+  }
+
+  .header-text {
+    margin: 0;
+    bottom: 15%;
+    left: 5%;
+  }
+
+  .header-text h1 {
+    font-size: 28px;
+  }
+
+  .header-text p {
+    font-size: 16px;
+  }
+
+  .column-container {
+    grid-template-columns: 1fr;
+  }
+
+  .service {
+    gap: 5px;
+    padding-bottom: 15px;
+  }
+
+  .service-img {
+    padding: 10px;
+  }
+
+  .service img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .service-title {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  .service-description {
+    font-size: 14px;
+  }
+
+  /* SERVICES END */
+
+  /* PORTFOLIO START */
+
+  .image-container {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 10px;
+    margin: 15px;
+  }
+
+  /* PORTFOLIO END */
+
+  /* TESTIMONIALS START */
+
+  .all-testimonials {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  /* TESTIMONIALS END */
+
+  /* ABOUT START */
+
+  .about-content {
+    padding: 15px;
+  }
+
+  .about,
+  .mission,
+  .clientele {
+    margin-bottom: 20px;
+  }
+
+  /* ABOUT END */
+
+  /* CONTACT START */
+
+  .top .map {
+    width: 100%;
+    height: 250px;
+  }
+
+  .bottom-about {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    width: auto;
+    padding: 15px;
+    margin: 0;
+  }
+
+  .contact-form h2 {
+    font-size: 26px;
+  }
+
+  .contact-form h5 {
+    font-size: 16px;
+  }
+
+  .contact-section {
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .contact-block h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .contact-block p {
+    font-size: 14px;
+  }
+
+  /* CONTACT END */
 }

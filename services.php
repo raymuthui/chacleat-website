@@ -6,6 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+      .banner {
+        height: 400px
+      }
+      @media screen and (max-width: 480px) {
+        .banner {
+          height: 250px;
+        }
+      }
+  </style>
 
 </head>
 
@@ -15,7 +25,7 @@
         include 'header.php'
     ?>
   </header>
-  <section class="banner" style="height: 400px;">
+  <section class="banner">
       <div class="overlay"></div>
       <img id="banner-image" src="assets/images/home-kitchen-remodel.jpg" alt="Banner Image" class="banner-image">
       <div class="header-text">

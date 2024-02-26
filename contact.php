@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      .banner {
+        height: 400px
+      }
+      @media screen and (max-width: 480px) {
+        .banner {
+          height: 250px;
+        }
+      }
+  </style>
   </head>
   <body>
     <header>
       <?php include_once 'header.php' ?>
     </header>
-    <section class="banner" style="height: 400px;">
+    <section class="banner">
       <div class="overlay"></div>
       <img id="banner-image" src="assets/images/home-kitchen-remodel.jpg" alt="Banner Image" class="banner-image">
       <div class="header-text">
@@ -20,7 +30,7 @@
     </section>
     <div class="top">
       <div heading>
-        <iframe
+        <iframe class="map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7860804387637!2d36.818880075013304!3d-1.3033490986842724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10fccee880b1%3A0x88b15466d7362b83!2sNachu%20Plaza!5e0!3m2!1sen!2ske!4v1707863725332!5m2!1sen!2ske"
           width="100%"
           height="450"
